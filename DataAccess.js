@@ -19,7 +19,7 @@ var DataAccess = /** @class */ (function () {
     //    static DB_CONNECTION_STRING:string = 'mongodb://dbAdmin:test@localhost:3000/toDoSample?authSource=admin';
     //    static DB_CONNECTION_STRING:string = 'mongodb+srv://test:test@cluster0.wvyas.azure.mongodb.net/todoappsu3?retryWrites=true&w=majority&authSource=admin';
     //    static DB_CONNECTION_STRING:string = 'mongodb+srv://test:dbtest@cluster0.wvyas.azure.mongodb.net/todoappsu3?retryWrites=true&w=majority';
-    DataAccess.DB_CONNECTION_STRING = 'mongodb+srv://test:dbtest@cluster0.wvyas.azure.mongodb.net/toDoSample?retryWrites=true&w=majority';
+    DataAccess.DB_CONNECTION_STRING = 'mongodb+srv://test:user1@cluster0.dyy36.mongodb.net/rrData?retryWrites=true&w=majority';
     return DataAccess;
 }());
 exports.DataAccess = DataAccess;
